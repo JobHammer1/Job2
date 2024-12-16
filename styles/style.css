@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Daydream';
+    src: url('../fonts/Daydream.ttf') format('truetype');
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Daydream', sans-serif;
+    background-color: #1a1a1a;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+header {
+    background-color: #F24726;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    height: 100px;
+    display: flex;
+    padding-right: 2rem;
+}
+
+nav {
+    width: 70%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+}
+
+.hover-yellow:hover {
+    color: #FFF20A;
+    text-decoration: underline;
+    text-underline-offset: 2rem;
+    text-decoration-thickness: 0.5rem;
+    text-decoration-color: #FFF20A;
+}
+
+.hover-blue:hover {
+    color: #2B5EFF;
+    text-decoration: underline;
+    text-underline-offset: 2rem;
+    text-decoration-thickness: 0.5rem;
+    text-decoration-color: #2B5EFF;
+}
+
+.hover-green:hover {
+    color: #18FF0D;
+    text-decoration: underline;
+    text-decoration: underline;
+    text-underline-offset: 2rem;
+    text-decoration-thickness: 0.5rem;
+    text-decoration-color: #18FF0D;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1 {
+    color: #FFF20A;
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.podcast-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.podcast-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.podcast-text h1 {
+    font-size: 3rem;
+    color: #FFF20A;
+}
+
+.podcast-text p {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.podcast-video {
+    flex: 1;
+}
+
+.podcast-video video {
+    width: 100%;
+    border: 4px solid #F24726;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.video-item {
+    background-color: #FFF20A;
+    color: #1A1A1A;
+    padding: 2rem;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.video-item h2 {
+    font-size: 2rem;
+    color: #1A1A1A;
+}
+
+video {
+    width: 100%;
+    border: 4px solid #F24726;
+    outline: none;
+}
+
+footer {
+    background-color: #F24726;
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #FFF20A;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
